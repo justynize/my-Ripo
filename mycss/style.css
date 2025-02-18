@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blueviolet;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    color: brown;
+    align-items: center;
+}
+.container{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("/mycss/IMG-20241118-WA0061.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.container .sub-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.container .sub-container form{
+    padding: 20px;
+    width: 400px;
+    display: block;
+}
+.container .sub-container form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    height: 50px;
+}
